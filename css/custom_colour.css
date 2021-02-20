@@ -1,0 +1,71 @@
+.button-selector [type="radio"] + .font-1-button:before {
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.25em;
+	border-radius: 0.0em;
+	border: 0.128em solid #efefef;
+	box-shadow: 0 0 0 0.12em #333;
+	margin-right: 0.75em;
+	transition: 0.5s ease all;
+    background-color: #000 !important;
+}
+
+.button-selector [type="radio"]:checked + .font-1-button:before {
+	  box-shadow: 0 0 0 0.35em #000;
+}
+	
+.button-selector [type="radio"] + .font-2-button:before {
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.25em;
+	border-radius: 0.0em;
+	border: 0.128em solid #efefef;
+	box-shadow: 0 0 0 0.12em #333;
+	margin-right: 0.75em;
+	transition: 0.5s ease all;
+    background-color: #fff !important;
+}
+
+.button-selector [type="radio"]:checked + .font-2-button:before {
+	  box-shadow: 0 0 0 0.35em #ccc;
+}	
+
+.button-selector [type="radio"] + .font-3-button:before {
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.25em;
+	border-radius: 0.0em;
+	border: 0.128em solid #efefef;
+	box-shadow: 0 0 0 0.12em #ccc;
+	margin-right: 0.75em;
+	transition: 0.5s ease all;
+    background-color: #ccc !important;
+}
+
+.button-selector [type="radio"]:checked + .font-3-button:before {
+	  box-shadow: 0 0 0 0.35em #ccc;
+}
+
+.button-selector [type="radio"] + .font-4-button:before {
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.25em;
+	border-radius: 0.0em;
+	border: 0.128em solid #efefef;
+	box-shadow: 0 0 0 0.12em #666;
+	margin-right: 0.75em;
+	transition: 0.5s ease all;
+    background-color: #666 !important;
+}
+
+.button-selector [type="radio"]:checked + .font-4-button:before {
+	  box-shadow: 0 0 0 0.35em #666;
+}	
